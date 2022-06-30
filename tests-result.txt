@@ -1,0 +1,142 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.example:spring-security-test >------------------
+[INFO] Building spring-security-test 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ spring-security-test ---
+[INFO] Deleting /home/pszemus/projects/spring-security-test/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ spring-security-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ spring-security-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/pszemus/projects/spring-security-test/target/classes
+[INFO] /home/pszemus/projects/spring-security-test/src/main/java/com/example/springsecuritytest/SecurityConfiguration.java: /home/pszemus/projects/spring-security-test/src/main/java/com/example/springsecuritytest/SecurityConfiguration.java uses or overrides a deprecated API.
+[INFO] /home/pszemus/projects/spring-security-test/src/main/java/com/example/springsecuritytest/SecurityConfiguration.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ spring-security-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /home/pszemus/projects/spring-security-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ spring-security-test ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/pszemus/projects/spring-security-test/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-security-test ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.springsecuritytest.TestControllerTest
+08:27:36.535 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+08:27:36.543 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+08:27:36.566 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.springsecuritytest.TestControllerTest] from class [org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper]
+08:27:36.573 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.springsecuritytest.TestControllerTest], using SpringBootContextLoader
+08:27:36.575 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.springsecuritytest.TestControllerTest]: class path resource [com/example/springsecuritytest/TestControllerTest-context.xml] does not exist
+08:27:36.575 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.springsecuritytest.TestControllerTest]: class path resource [com/example/springsecuritytest/TestControllerTestContext.groovy] does not exist
+08:27:36.575 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.springsecuritytest.TestControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+08:27:36.575 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.springsecuritytest.TestControllerTest]: TestControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:27:36.610 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.springsecuritytest.TestControllerTest]
+08:27:36.643 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/pszemus/projects/spring-security-test/target/classes/com/example/springsecuritytest/SpringSecurityTestApplication.class]
+08:27:36.648 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.springsecuritytest.SpringSecurityTestApplication for test class com.example.springsecuritytest.TestControllerTest
+08:27:36.650 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.springsecuritytest.TestControllerTest]: using defaults.
+08:27:36.650 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+08:27:36.656 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+08:27:36.656 [main] DEBUG org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+08:27:36.657 [main] INFO org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@415b0b49, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d5620ce, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@311bf055, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@642a7222, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7d322cad, org.springframework.test.context.support.DirtiesContextTestExecutionListener@21be3395, org.springframework.test.context.event.EventPublishingTestExecutionListener@4f49f6af, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@78452606, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@147e2ae7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@448c8166, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4470fbd6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@15d49048, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7098b907, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@503f91c3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@13526e59]
+08:27:36.659 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@50029372 testClass = TestControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@e3b3b2f testClass = TestControllerTest, locations = '{}', classes = '{class com.example.springsecuritytest.SpringSecurityTestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@50f6ac94 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@37654521, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4de4b452, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7e5afaa6, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@581ac8a8, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@332d5d4f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@cb4f0095, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27f981c6, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+08:27:36.666 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@50029372 testClass = TestControllerTest, testInstance = com.example.springsecuritytest.TestControllerTest@3576ddc2, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@e3b3b2f testClass = TestControllerTest, locations = '{}', classes = '{class com.example.springsecuritytest.SpringSecurityTestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@50f6ac94 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration, org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration, org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAutoConfiguration, org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration, org.springframework.boot.autoconfigure.hateoas.HypermediaAutoConfiguration, org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration, org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration, org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration, org.springframework.boot.autoconfigure.mustache.MustacheAutoConfiguration, org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration, org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration, org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@37654521, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4de4b452, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@7e5afaa6, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@581ac8a8, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@332d5d4f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@cb4f0095, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@27f981c6, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2022-06-30 08:27:36.850  INFO 9405 --- [           main] c.e.s.TestControllerTest                 : Starting TestControllerTest using Java 17.0.3 on pszemus-dell with PID 9405 (started by pszemus in /home/pszemus/projects/spring-security-test)
+2022-06-30 08:27:36.851  INFO 9405 --- [           main] c.e.s.TestControllerTest                 : No active profile set, falling back to 1 default profile: "default"
+2022-06-30 08:27:37.514  WARN 9405 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9ed730f5-880f-4d2b-8ddb-2a1585a833d7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-06-30 08:27:37.627  INFO 9405 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d1ff6b1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45f756e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@5961e92d, org.springframework.security.web.header.HeaderWriterFilter@63a28987, org.springframework.security.web.csrf.CsrfFilter@4317850d, org.springframework.security.web.authentication.logout.LogoutFilter@7593ea79, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@73809e7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7b81616b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@329548d0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@45e9b12d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fb392c4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@194d329e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3003827c, org.springframework.security.web.session.SessionManagementFilter@4693a9ef, org.springframework.security.web.access.ExceptionTranslationFilter@31e76a8d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d6ccc97]
+2022-06-30 08:27:37.682  INFO 9405 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-30 08:27:37.682  INFO 9405 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-30 08:27:37.683  INFO 9405 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-30 08:27:37.705  INFO 9405 --- [           main] c.e.s.TestControllerTest                 : Started TestControllerTest in 1.023 seconds (JVM running for 1.48)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /public
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {SPRING_SECURITY_SAVED_REQUEST=DefaultSavedRequest [http://localhost/public]}
+
+Handler:
+             Type = null
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 401
+    Error message = Unauthorized
+          Headers = [WWW-Authenticate:"Basic realm="Realm"", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", X-Frame-Options:"DENY"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.454 s <<< FAILURE! - in com.example.springsecuritytest.TestControllerTest
+[ERROR] givenNoCredentials_shouldAccessPublicEndpoint  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.example.springsecuritytest.TestControllerTest.givenNoCredentials_shouldAccessPublicEndpoint(TestControllerTest.java:22)
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   TestControllerTest.givenNoCredentials_shouldAccessPublicEndpoint:22 Status expected:<200> but was:<401>
+[INFO] 
+[ERROR] Tests run: 3, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.287 s
+[INFO] Finished at: 2022-06-30T08:27:38+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project spring-security-test: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/pszemus/projects/spring-security-test/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
